@@ -1,0 +1,35 @@
+header{
+    background-color: #22396a;
+    padding: 40px;
+}
+footer{
+    background-color: #22396a;
+    padding: 40px;
+}
+h3{
+    color: white;
+    text-align: left;
+    display: inline-block;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center
+}
+.links{
+   margin-left: 950px;
+}
+aside{
+    display: inline-block;
+    padding: 30px;
+    width: 30%;
+    margin-left: 20px;
+   
+}
+
+.image{
+    width: 70%;
+    padding: 30px;
+    margin-left: 90px;
+    
+}
