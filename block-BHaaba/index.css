@@ -1,0 +1,62 @@
+/*header */
+body{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.header{
+    font-size: 0;
+    background-color: lightgrey;
+    padding: 16px 0;
+}
+.brand img{
+     width: 180px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+.brand,
+.nav{
+    display:inline-block;
+    vertical-align:middle;
+
+}
+.nav{
+    width: calc(100% - 180px);
+    font-size: 16px;
+    text-align: right; 
+}
+.nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rebeccapurple;
+    margin-left: 10px;
+}
+
+article{
+    padding: 18px;
+    margin: 1.5%;
+    float: left;
+    width: 27.333%;
+}
+.image{
+    width: 100%;
+}
+.footer{
+    font-size: 24px;
+    background-color: lightgrey;
+    padding: 16px 0;
+}
+h2{
+    color: rebeccapurple;
+    text-align: center;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+
+}
