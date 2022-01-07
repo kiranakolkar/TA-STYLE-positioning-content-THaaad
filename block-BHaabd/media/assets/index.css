@@ -1,4 +1,7 @@
-/* CSS reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -13,69 +16,79 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,main, 
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-    display: block;
+	display: block;
 }
 body {
-    line-height: 1.6;
-    background-color: rgb(184, 193, 202);
+	line-height: 1.6;
+    background-color: rgb(133, 152, 172);
+    padding: 32px;
 }
 ol, ul {
-    list-style: none;
+	list-style: none;
 }
 blockquote, q {
-    quotes: none;
+	quotes: none;
 }
-
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 /*coustom style*/
 h1{
     font-size: 36px;
     color: black;
     text-align: center;
-    padding: 10px 0;
+    margin-bottom: 16px;
 }
 h2{
-    margin-left: 260px;
+    
     font-size: 24px;
     color: black;
-    padding-top: 10px;
+    padding-bottom: 20px;
+    
 }
 
 .container{
     width: 1000px;
     margin: 0 auto;
-    background-color: white;   
+    background-color: white;
+    padding: 10px;   
+    
 }
 img{
-    width: 400px;
-    height: 320px;
+    width: 100%;
+    margin-bottom: 12px;
 }
 .col{
     float: left;
     margin: 2%;
 }
 .col-1{
-    width: 200px;
+    width: 20%
+    
     
 }
 .col-2{
-    width: 400px;
+    width: 42%;
 }
 .col-3{
-    width: 250px;
+    width: 25%;
+    font-weight: 600;
     
 }
 .clearfix::before,.clearfix::after{
@@ -87,6 +100,7 @@ img{
 }
 .leftspace{
     margin-left: 20px;
+    margin-right: 10px;
 }
 
 
