@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix::before,.clearfix::after{
+    content: " ";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+/*custom style*/
+.container{
+    max-width: 1000px;
+    margin: 0 auto;   
+
+}
+/*header*/
+.header{
+    background-color: rgb(2, 72, 122);
+    padding: 32px 0;
+}
+.left{
+    float: left;
+    color: white;
+    font-size: 14px;
+}
+.nav{
+    float: right;
+}
+.nav a{
+    text-decoration: none;
+    padding-left: 12px;
+    color: white;
+    font-size: 14px;
+}
+.heading{
+    margin: 80px;
+    text-align: center;
+}
+h1{
+    font-size: 36px;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 12px;
+}
+.intro{
+    font-size: 16px;
+    color: white;
+}
+/*second section*/
+.three{
+    width: 28%;
+    float: left;
+    margin-right:  5%;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+
+}
+h2{
+    font-size: 26px;
+    color: rgb(2, 72, 122);
+}
+.more{
+    background-color: rgb(2, 72, 122);
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    
+}
+/*Third section*/
+
+.photos{
+    background-color:rgb(2, 72, 122); 
+    
+}
+.photo{
+   margin: 36px;
+   text-align: center;
+}
+.secondheading{
+    padding-top: 44px;
+}
+/*photo section*/
+.image{
+   height: 110px;
+   width: 110px;
+   border-radius: 50%;    
+   margin: 20px;
+   margin-bottom: 14px;
+   margin-top: 40px;
+}
+h3{
+    color: white;
+    font-weight: 200;
+    font-size: 24px;
+}
+.para{
+    color: wheat;
+    margin-bottom: 24px;
+}
+.four{
+    text-align: center;
+    border: solid 0.5px wheat;
+    float: left;
+    width: 20%;
+    margin: 2%;
+    margin-bottom: 120px;
+    
+}
+/*last Section*/
+.last{
+    text-align: center;
+    color:rgb(2, 72, 122); 
+    margin: 60px; 
+}
+.blue{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.lastpara{
+    font-size: 16px;
+
+}
+.first{
+    float: left;
+    width: 45%
+
+}
+.second{
+    float: right;
+    width: 45%
+}
+.lastimage{
+    width: 100%;
+}
+/*footer*/
+
+
+.footerleft{
+    float: left;
+    color: black;
+    font-size: 14px;
+}
+hr{
+   margin-bottom: 20px;
+}
+.footernav a{
+    color: rgb(2, 72, 122); 
+}
+.newstyle{
+    margin-top: 24px;
+    height: 50px;
+    
+}
